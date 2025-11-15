@@ -1,0 +1,49 @@
+{
+  "name": "seo-eat-analyzer",
+  "version": "1.0.0",
+  "description": "E-E-A-T analyzer and Answer Engine Optimization (AEO) tracker for 2025 - optimize for Google, ChatGPT, Perplexity",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "eat-analyzer": "./dist/cli.js",
+    "eat": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "test": "node test-suite.js"
+  },
+  "keywords": [
+    "seo",
+    "e-e-a-t",
+    "google",
+    "aeo",
+    "answer-engine-optimization",
+    "chatgpt",
+    "perplexity",
+    "ai-overview",
+    "content-optimization",
+    "technical-seo",
+    "structured-data",
+    "authorship",
+    "expertise"
+  ],
+  "author": "SEO E-E-A-T Analyzer Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.1.1",
+    "cli-table3": "^0.6.5",
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
